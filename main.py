@@ -6,8 +6,8 @@ def charger_questions(fichier):
     return questions
 
 def poser_question(question):
-    print(f"\nCategory : {question['category']}\nDifficulty : {question["difficulty"]}\nquestion : {question["question"]}")
-    for i,option in enumerate(question["options"], start=1):
+    print(f"\nCategory : {question['category']}\nDifficulty : {question['difficulty']}\nQuestion : {question['question']}")
+    for i, option in enumerate(question["options"], start=1):
         print(f"{i}. {option}")
     
     try:
