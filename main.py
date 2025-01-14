@@ -35,7 +35,7 @@ def jouer_quiz(fichier_questions):
         else:
             print(f"Bad answer. the good answer was {question['options'][question['answer'] - 1]}")
 
-    print("\End of quizz!")
+    print("End of quizz!")
     print(f"Your final score is {score}/{total_questions}.")
     if score == total_questions:
         print("Well played, you are an expert!")
@@ -43,3 +43,6 @@ def jouer_quiz(fichier_questions):
         print("Well played but you can still progress.")
     else:
         print("Ah, try again to progess!")
+    
+if __name__ == "__main__":
+    jouer_quiz("questions.json")
