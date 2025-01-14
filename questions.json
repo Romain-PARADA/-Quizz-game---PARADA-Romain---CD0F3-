@@ -1,0 +1,156 @@
+[
+    {
+        "question": "Quel est le plus grand océan du monde ?",
+        "options": ["Pacifique", "Atlantique", "Arctique", "Indien"],
+        "answer": 1,
+        "category": "Géographie",
+        "difficulty": "Moyen"
+    },
+    {
+        "question": "En quelle année la Seconde Guerre mondiale a-t-elle commencé ?",
+        "options": ["1914", "1939", "1945", "1920"],
+        "answer": 2,
+        "category": "Histoire",
+        "difficulty": "Difficile"
+    },
+	{
+        "question": "Quel est le plus grand océan du monde ?",
+        "options": ["Pacifique", "Atlantique", "Arctique", "Indien"],
+        "answer": 1,
+        "category": "Géographie",
+        "difficulty": "Moyen"
+    },
+    {
+        "question": "En quelle année la Seconde Guerre mondiale a-t-elle commencé ?",
+        "options": ["1914", "1939", "1945", "1920"],
+        "answer": 2,
+        "category": "Histoire",
+        "difficulty": "Difficile"
+    },
+    {
+        "question": "Quelle planète est la plus proche du soleil ?",
+        "options": ["Mercure", "Vénus", "Terre", "Mars"],
+        "answer": 1,
+        "category": "Astronomie",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Combien de côtés possède un hexagone ?",
+        "options": ["4", "5", "6", "7"],
+        "answer": 3,
+        "category": "Mathématiques",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Qui a peint La Joconde ?",
+        "options": ["Vincent van Gogh", "Claude Monet", "Leonard de Vinci", "Pablo Picasso"],
+        "answer": 3,
+        "category": "Art",
+        "difficulty": "Moyen"
+    },
+    {
+        "question": "Quelle est la capitale du Japon ?",
+        "options": ["Tokyo", "Kyoto", "Osaka", "Nagasaki"],
+        "answer": 1,
+        "category": "Géographie",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Quel gaz les plantes utilisent-elles pour la photosynthèse ?",
+        "options": ["Oxygène", "Dioxyde de carbone", "Azote", "Hydrogène"],
+        "answer": 2,
+        "category": "Science",
+        "difficulty": "Moyen"
+    },
+    {
+        "question": "Quel est le symbole chimique de l'or ?",
+        "options": ["Ag", "Au", "O", "Fe"],
+        "answer": 2,
+        "category": "Chimie",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Quel est le plus long fleuve du monde ?",
+        "options": ["Nil", "Amazon", "Yangzi Jiang", "Mississippi"],
+        "answer": 2,
+        "category": "Géographie",
+        "difficulty": "Difficile"
+    },
+    {
+        "question": "Quel est le pays d'origine de la pizza ?",
+        "options": ["France", "Grèce", "Italie", "Espagne"],
+        "answer": 3,
+        "category": "Culture",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Quelle est la devise des États-Unis ?",
+        "options": ["Liberté, Égalité, Fraternité", "In God We Trust", "E Pluribus Unum", "Land of the Free"],
+        "answer": 2,
+        "category": "Histoire",
+        "difficulty": "Moyen"
+    },
+    {
+        "question": "Combien d'os y a-t-il dans le corps humain adulte ?",
+        "options": ["206", "208", "210", "212"],
+        "answer": 1,
+        "category": "Biologie",
+        "difficulty": "Difficile"
+    },
+    {
+        "question": "Quel est l'instrument de musique national d'Écosse ?",
+        "options": ["Guitare", "Cornemuse", "Harmonica", "Violon"],
+        "answer": 2,
+        "category": "Culture",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Quelle est la capitale de l'Australie ?",
+        "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        "answer": 3,
+        "category": "Géographie",
+        "difficulty": "Moyen"
+    },
+    {
+        "question": "Qui a découvert la pénicilline ?",
+        "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Albert Einstein"],
+        "answer": 2,
+        "category": "Science",
+        "difficulty": "Difficile"
+    },
+    {
+        "question": "Quel pays est connu sous le nom de Pays du Soleil Levant ?",
+        "options": ["Chine", "Japon", "Thaïlande", "Corée du Sud"],
+        "answer": 2,
+        "category": "Culture",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Qui a écrit 'Hamlet' ?",
+        "options": ["Molière", "Victor Hugo", "William Shakespeare", "Jules Verne"],
+        "answer": 3,
+        "category": "Littérature",
+        "difficulty": "Moyen"
+    },
+    {
+        "question": "Quelle est la monnaie officielle de la Chine ?",
+        "options": ["Yen", "Peso", "Dollar", "Yuan"],
+        "answer": 4,
+        "category": "Économie",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Quelle est la langue officielle du Brésil ?",
+        "options": ["Espagnol", "Portugais", "Français", "Italien"],
+        "answer": 2,
+        "category": "Culture",
+        "difficulty": "Facile"
+    },
+    {
+        "question": "Quelle étoile est au centre de notre système solaire ?",
+        "options": ["Alpha Centauri", "La Lune", "Le Soleil", "Sirius"],
+        "answer": 3,
+        "category": "Astronomie",
+        "difficulty": "Facile"
+    }
+]
