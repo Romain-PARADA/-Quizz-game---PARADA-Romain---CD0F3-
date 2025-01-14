@@ -1,23 +1,20 @@
 import json
 
 def charger_questions(fichier):
-    try:
-        with open(fichier, "r", encoding="utf-8") as f:
+    with open(fichier, "r", encoding="utf-8") as f:
             questions = json.load(f)
-        return questions
-    except FileNotFoundError:
-        print("Le fichier de questions est introuvable.")
-        return []
+    return questions
 
 def poser_question(question):
-    print(f"\nCatégorie : {question['category']}\nDifficulté : {question["difficulty"]}\nquestion : {question["question"]}")
+    print(f"\nCategory : {question['category']}\nDifficulty : {question["difficulty"]}\nquestion : {question["question"]}")
     for i,option in enumerate(question["options"], start=1):
         print(f"{i}. {option}")
     
     try:
-        reponse = int(input("Votre réponse (entrez le numéro) : "))
+        reponse = int(input("Your answer (type the number) : "))
         return reponse == question["answer"]
     except ValueError:
-        print("Veuillez entrer un numéro valide.")
+        print("Enter a valid number")
         return False
+    
     
