@@ -10,13 +10,16 @@ def poser_question(question):
     for i, option in enumerate(question["options"], start=1):
         print(f"{i}. {option}")
     
-    try:
-        reponse = int(input("Your answer (type the number) : "))
-        return reponse == question["answer"]
-    except ValueError:
-        print("Enter a valid number")
-        return False
-    
+    while True:  
+        try:
+            reponse = int(input("Your answer (type the number) : "))
+            if reponse in [1, 2, 3, 4]:
+                return reponse == question["answer"]
+            else:
+                print("Invalid choice. Please enter 1, 2, 3, or 4.")
+        except ValueError:
+            print("Enter a valid number")
+            
 def jouer_quiz(fichier_questions):
     print("Welcome in this advance quizz!")
     questions = charger_questions(fichier_questions)
