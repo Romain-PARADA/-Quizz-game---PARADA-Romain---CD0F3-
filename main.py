@@ -17,30 +17,29 @@ def poser_question(question):
         print("Enter a valid number")
         return False
     
-    def jouer_quiz(fichier_questions):
-        print("Welcome in this advance quizz!")
-        questions = charger_questions(fichier_questions)
-        if not questions:
-            return
-        score = 0
-        total_questions = len(questions)
+def jouer_quiz(fichier_questions):
+    print("Welcome in this advance quizz!")
+    questions = charger_questions(fichier_questions)
+    if not questions:
+        return
+    score = 0
+    total_questions = len(questions)
 
-        import random
-        random.shuffle(questions)
-
-        for index, question in enumerate(questions):
-            print(f"\nQuestion {index + 1}/{total_questions}")
-            if poser_question(question):
-                print("Good answer!")
-                score += 1
-            else:
-                print(f"Bad answer. the good answer was {question['options'][question['answer'] - 1]}")
-
-        print("\End of quizz!")
-        print(f"Your final score is {score}/{total_questions}.")
-        if score == total_questions:
-            print("Well played, you are an expert!")
-        elif score > total_questions / 2:
-            print("Well played but you can still progress.")
+    import random
+    random.shuffle(questions)
+    for index, question in enumerate(questions):
+        print(f"\nQuestion {index + 1}/{total_questions}")
+        if poser_question(question):
+            print("Good answer!")
+            score += 1
         else:
-            print("Ah, try again to progess!")
+            print(f"Bad answer. the good answer was {question['options'][question['answer'] - 1]}")
+
+    print("\End of quizz!")
+    print(f"Your final score is {score}/{total_questions}.")
+    if score == total_questions:
+        print("Well played, you are an expert!")
+    elif score > total_questions / 2:
+        print("Well played but you can still progress.")
+    else:
+        print("Ah, try again to progess!")
